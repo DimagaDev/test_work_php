@@ -1,5 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookController;
 
-Route::apiResource('books', BookController::class);
+Route::middleware('api')->group(function () {
+    Route::apiResource('books', BookController::class);
+});
