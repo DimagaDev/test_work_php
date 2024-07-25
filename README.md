@@ -4,7 +4,7 @@
 
 1. Clone the repository:
 ```bash
-git clone <repository_url>
+git clone https://github.com/DimagaDev/test_work_php.git
 cd book-library
 
 composer install
