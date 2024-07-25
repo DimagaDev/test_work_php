@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('publisher');
             $table->string('author');
             $table->string('genre');
-            $table->date('book_publication');
+            $table->dateTime('book_publication');
             $table->integer('word_count');
             $table->decimal('price', 8, 2);
             $table->timestamps();
